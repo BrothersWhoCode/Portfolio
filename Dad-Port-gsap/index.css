@@ -1,0 +1,461 @@
+html{
+height: 550%;
+width: 100%; 
+color: white;
+font-family:sans-serif;
+background: darkblue;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#inst{
+font-size: 30px;    
+color: black;
+position: relative;
+top: 10px;
+}
+
+#inst:hover{
+ color: white;
+ transition: .9s ease-in-out;   
+}
+
+header{
+    height: 100vh;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+
+.img{
+height: 30%;
+width: 50%; 
+
+    
+}
+
+
+
+nav{
+   z-index: 2;
+    width: 109.6%;
+    height: 20%;
+    position: relative;
+    top:20px;
+}
+
+.nav-open{
+    width: 45.1%;
+    position: relative;
+    top: 600px;
+    height: 416%;
+    opacity: 0;
+    background:rgba(0,64,242,1);    
+}
+
+.nav-closed{
+    display: grid; 
+    overflow: hidden; 
+    position: relative;
+    right: 150px;
+    background: rgb(30,87,153);
+    background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(0,64,242,1) 100%, rgba(125,185,232,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(0,64,242,1) 100%,rgba(125,185,232,1) 100%);
+    background: linear-gradient(135deg,  rgba(0,64,242,1) 0%,rgba(0,64,242,1) 100%,rgba(125,185,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    
+}
+
+
+ul{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    
+}
+
+.btn{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+p{
+ font-family: Arial;  
+ font-size: 21px; 
+ font-weight: 200;
+ position: relative;
+top: 50px;
+}
+
+.btn{
+position: relative;
+left: 100px;
+width: 20px;
+}
+
+.btn:hover{
+    color: white;
+    transition:.9s ease-in-out;
+    text-decoration: none;
+      
+}
+
+.btn2{
+color:black ; 
+width: 40px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.btn2:hover{
+    color: white;
+    transition:.9s ease-in-out;
+    text-decoration: none;    
+}
+    
+
+.btn3{
+width: 60px;
+cursor: pointer;
+text-decoration: none;
+color:orange; 
+position: relative;
+left:700px;
+}
+
+
+.btn3:hover{
+    color:orangered;
+    transition:.9s ease-in-out;
+    text-decoration: none;    
+}
+    
+.ls{
+   position: relative;
+   left: 1140px;
+   bottom: 520px;
+   z-index: 2; 
+   background: rgb(0,64,242,1);
+   width: 150px;
+   height: 139px;
+   padding: 30px;
+   opacity: 0;
+   text-align: center;
+   
+}
+
+.ls h6{
+    color: black;
+    
+}
+
+.ls h6:hover{
+color: white;
+transition: .9s ease-in-out;
+}
+
+
+h6{
+    position: relative;
+    right: 60px;
+}
+
+.a{
+    position: relative;
+    right: 200px;  
+}
+
+.v{
+    position: relative;
+    right: 350px;
+    top: 50px;
+}
+
+.Port{
+text-align: center;
+position: relative;
+right: 500px;
+color: orange;
+}
+
+#P{
+    padding: 10px;
+    width: 60px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+#P:hover{
+    color: white;
+    transition:.9s ease-in-out;    
+}
+
+
+.s{
+    background: rgb(30,87,153);
+    background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(0,64,242,1) 100%, rgba(125,185,232,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(0,64,242,1) 100%,rgba(125,185,232,1) 100%);
+    background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(0,64,242,1) 100%,rgba(125,185,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    z-index: 2;
+    position: relative;
+    bottom: 800px;
+    left: 533px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 800px;
+    opacity: 0;    
+
+}
+
+.img2{
+    width: 250px;
+
+}
+
+.me{
+    text-align: center;
+    position: relative;
+    bottom: 600px;
+    right: 500px;
+    opacity: 0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+button{
+width: 80px;
+height: 40px;  
+position: relative;
+top: 200px; 
+right: 160px;
+background: royalblue;
+border:solid 1px darkblue;
+cursor: pointer; 
+}
+
+button:hover{
+    background: darkblue;
+    transition:.9s ease-in-out;
+}
+
+hr{
+border:solid 1px black;
+position: relative;
+top: 50px;
+}
+
+
+.projects{
+    position: relative;
+    bottom: 500px;
+
+}
+
+.projects img{
+    width: 700px;
+}
+
+
+.Yu{
+    position: relative;
+    top: 50px;
+}
+
+.Tubi{
+    position: relative;
+    top: 130px;
+}
+
+
+.SweetSpot{
+    position: relative;
+    top: 200px;
+}
+
+
+#icon{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+.h1b{
+    position: relative;
+    top: 100px;
+}
+
+#icon:hover{
+    color: white;
+    transition:.9s ease-in-out;
+}
+
+footer {
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 90px;
+    overflow: hidden;
+    right: 1500px;
+   opacity: 0;
+   background: rgb(30,87,153);
+    background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(0,64,242,1) 100%, rgba(125,185,232,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(0,64,242,1) 100%,rgba(125,185,232,1) 100%);
+    background: linear-gradient(135deg,  rgba(0,64,242,1) 0%,rgba(0,64,242,1) 100%,rgba(125,185,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+}
+
+
+
+
+footer i{
+font-size: 50px;    
+color: black;
+position: relative;
+bottom: 50px;
+margin: 100px;
+}
+
+footer i:hover{
+    color: white;
+    transition:.9s ease-in-out;
+    cursor: pointer;
+}
+
+
+.g{
+ color: black;
+background: royalblue;
+border:solid 1px darkblue;
+ padding: 10px;
+ position: relative;
+ bottom: 300px;
+ left: 550px;
+}
+
+
+.g:hover{
+background-color:darkblue;
+color: black;
+text-decoration: none;
+transition:.9s ease-in-out;
+
+}
+.imgb{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.69) 38%, rgba(0,0,0,0.76) 51%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.69) 38%,rgba(0,0,0,0.76) 51%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.69) 38%,rgba(0,0,0,0.76) 51%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#000000',GradientType=0 );   
+    position: relative;
+    top: 400px;
+    height: 200px;
+    width: 700px;
+    
+}
+
+
+
+.projects a{
+ color: black;
+ background: royalblue;
+ border:solid 1px darkblue;
+ padding: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+ position: relative;
+ top: 80px;
+ left: 300px;
+}
+
+
+.projects a:hover{
+    background-color:darkblue;
+    color: black;
+    text-decoration: none;
+    transition:.9s ease-in-out;
+     
+}
+   
+.imgs{
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.69) 38%, rgba(0,0,0,0.76) 51%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.69) 38%,rgba(0,0,0,0.76) 51%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.69) 38%,rgba(0,0,0,0.76) 51%,rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#000000',GradientType=0 );   
+    position: relative;
+    bottom: 300px;
+    height: 200px;
+    width: 700px;
+}
+
+
+
+
+.pl{
+  position: relative;  
+  left: 550px;
+  color:orange;
+}
+
+.home{
+position: relative;
+right:25px;  
+top:50px;
+ font-size: 14px; 
+ color:orange;
+}
+
+.smith{
+    position: relative;  
+    left:15px;
+    color:orange;
+}
+
+.email{
+    position: relative;  
+    top: 40px;
+    right:50px;
+    color:orange;
+}
+
+.Name{
+    position: relative;
+    right:20px;
+    color: orange;
+}
+
+.fff{
+    position: relative;
+    top: -10px;
+    right:20px;
+    color:orange;
+}
+
+.The{
+position: relative;
+left:500px;
+color:orange;
+}
+
+.The:hover{
+  color: orangered;  
+ text-decoration: none;  
+ transition:.9s ease-in-out; 
+}
+
