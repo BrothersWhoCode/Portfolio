@@ -240,10 +240,11 @@ right: 160px;
 background: royalblue;
 border:solid 1px darkblue;
 cursor: pointer; 
+color: orangered;
 }
 
 button:hover{
-    background: darkblue;
+    background: orange;
     transition:.9s ease-in-out;
 }
 
@@ -399,20 +400,35 @@ position: relative;
 right:25px;  
 top:50px;
  font-size: 14px; 
- color:orange;
+ color:orangered;
+}
+
+.home:hover{
+    color: orange;
+    transition: .9s ease-in-out;
 }
 
 .smith{
     position: relative;  
     left:15px;
+    color:orangered;
+}
+
+.smith:hover{
     color:orange;
+    transition: .9s ease-in-out;
 }
 
 .email{
     position: relative;  
     top: 40px;
     right:50px;
+    color:orangered;
+}
+
+.email:hover{
     color:orange;
+    transition: .9s ease-in-out;
 }
 
 .Name{
