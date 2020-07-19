@@ -22,7 +22,7 @@ var h = function(){
 }
 
 var l = function() {
- gsap.to(".ls" , 0.7, {opacity:1, rotation: 360, ease: "power1.out"});
+ gsap.to(".ls" , 2, {opacity:1, rotation: 360, ease: "power1.out" });
 
 }
 
